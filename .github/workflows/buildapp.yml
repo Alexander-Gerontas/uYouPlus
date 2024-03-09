@@ -13,8 +13,8 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL to the decrypted YouTube ipa. The version of YouTube will be detected automatically."
-        default: ""
-        required: true
+        default: "https://drive.google.com/file/d/1VZQ90vuQPsuDZUrQD2CAtuU1EdMQ4U8B/view?usp=drive_link"
+        required: false
         type: string
       bundle_id:
         description: "Modify the bundle ID. Not recommended"
